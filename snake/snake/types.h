@@ -39,8 +39,6 @@ struct GameParams {
   // The minimum value for number of iterations before updating the snake
   // position. Cannot be less than 1.
   int min_iteration_count;
-
-  // Number to decrease update iterations
 };
 
 enum class GameStatus {
